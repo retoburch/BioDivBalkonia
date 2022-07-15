@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9f0ecb-fc23-4599-8f17-4390011bd45b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BioDiv_test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pruefungsleistung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pruefungsleistung.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/BioDivBa-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/BioDivBa-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BioDivBa.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/BioDivBa.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioDiv_test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioDiv_test1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

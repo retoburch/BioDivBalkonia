@@ -1,3 +1,5 @@
+import pandas as pd
+
 reference = ["Rose", "Mimose", "Feilchen"]
 
 n = int(input("Wie viele Pflanzen haben Sie insgesamt?: "))
@@ -9,6 +11,21 @@ for i in range(n):
    nm = int(input("Anzahl: "))
    pflanze.append(ad)
    pflanze_anzahl.append(nm)
+
+list_user = {"Pflanzen": pflanze, "Anzahl": pflanze_anzahl}
+frame_user = pd.DataFrame(list_user)
+
+def simpson_index(user_input):
+   total_count = user_input.Anzahl.sum()
+   pflanzen_count = user_input.Pflanzen.count()
+   prop = [Anzahl / total_count for Anzahl in user_input.Anzahl]
+   user_input["prop"] = prop
+   user_input["prop2"] = user_input["prop"] ** 2
+   D = 1 - user_input['prop2'].sum()
+   print("Der Simpson's diversity index is {:.4f}".format(D))
+
+simpson_index(frame_user)
+
 
 def score_flower(new_input):
    score = 0
