@@ -1,4 +1,5 @@
 import pandas as pd
+from math import log as ln
 
 reference = ["Rose", "Mimose", "Feilchen"]
 
@@ -25,6 +26,18 @@ def simpson_index(user_input):
    print("Der Simpson's diversity index is {:.4f}".format(D))
 
 simpson_index(frame_user)
+
+
+def shannon_index(user_input):
+   def p(n, N):
+      if n == 0:
+         return 0
+      else:
+         return (float(n) / N) * ln(float(n) / N)
+   N = user_input.Anzahl.sum()
+   return -sum(p(n, N) for n in user_input.Anzahl if n != 0)
+
+print("Der Shannon-Index ist " + str(shannon_index(frame_user)))
 
 
 def score_flower(new_input):
