@@ -1,7 +1,13 @@
 import pandas as pd
 from math import log as ln
 
-reference = ["Rose", "Mimose", "Feilchen"]
+import csv
+
+with open('/Users/burchr/Documents/GitHub/pruefungsleistung/Import/DatenBalkonien_verkürzt.csv', 'r') as f:
+    reader = csv.reader(f)
+    data = list(reader)
+    reference = sum(data, [])
+
 
 n = int(input("Wie viele Pflanzen haben Sie insgesamt?: "))
 pflanze = []
