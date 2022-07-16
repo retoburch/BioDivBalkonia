@@ -37,7 +37,6 @@ Baldrian,unkown,Kräuter,1,1,0,0,0,0,1,1,1,0,0,0,0,0
 Arzneithymian,unkown,Kräuter,1,1,0,0,0,0,0,1,1,1,1,0,0,0
 Azalee; Rhododendron spec.,unkown,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0
 Besenheide,Calluna vulgaris,Gehölz,1,1,0,0,0,0,0,0,0,1,1,1,0,0
-Brombeere,Rubus fruticosus,Gehölz,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 Himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,0,1,1,1,1,0,0,0,0
 Rose (ungefüllt),Rosa spec.,Gehölz,1,1,0,0,0,0,1,1,1,1,1,1,0,0
 Rosmarin,Rosmarinus officinalis,Gehölz,1,1,0,0,0,0,1,1,0,0,0,0,0,0
@@ -52,9 +51,8 @@ Fenchel,Foeniculum vulgare,Kräuter,1,1,0,0,0,0,0,0,1,1,0,0,0,0
 Koriander,Coriandrum spec.,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 Salbei,Salvia sclarea,Kräuter,1,1,0,0,0,0,0,1,1,0,0,0,0,0
 Klatschmohn,Papaver rhoeas,Saisonpflanze,1,0,0,0,0,0,1,1,1,0,0,0,0,0
-Sonnenblume,Helianthus spec.,Saisonpflanze,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 Kornblume,Centaurea cyanus,Saisonpflanze,1,1,0,0,0,0,0,1,1,0,0,0,0,0
-Forsythien,unkown,Gehölz,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Forsythie,unkown,Gehölz,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 Geranien,unkown,Stauden,0,0,0,0,0,0,1,1,1,1,1,1,0,0
 Lebensbaum,unkown,Gehölz,0,0,0,0,1,1,1,0,0,0,0,0,0,0
 Magnolie,unkown,Gehölz,0,0,0,0,0,1,1,1,0,0,1,0,0,0
@@ -90,7 +88,6 @@ Prunkwinde,Ipomoea tricolor,Kletterpflanzen,0,1,0,0,0,0,0,0,1,1,1,1,0,0
 Duftwicke,Lathyrus odoratus,Kletterpflanzen,1,1,0,0,0,0,0,1,1,1,1,0,0,0
 Breitbl. Platterbse,Latyrus latifolius,Kletterpflanzen,0,1,0,0,0,0,0,0,1,1,0,0,0,0
 Kriech. Leinkraut,Linaria repens,Kletterpflanzen,1,1,0,0,0,0,0,1,1,1,1,1,1,0
-Kapuzinerkresse,Tropaeolum majus,Kletterpflanzen,1,1,0,0,0,0,0,0,1,1,1,1,0,0
 Feuerbohne,Phasaeolus coccineus,Kletterpflanzen,0,0,0,0,0,0,0,0,1,1,1,0,0,0
 Zwergfeldahorn,Acer campestre Nanum,Kleingehölze,1,1,0,0,0,0,1,1,0,0,0,0,0,0
 Zwergfelsenbirne,Amelanchier ovalis,Kleingehölze,1,0,0,0,0,1,1,0,0,0,0,0,0,0
@@ -102,12 +99,9 @@ Zwergschneeball,Salix rosmarinifolia,Kleingehölze,0,1,0,0,0,0,1,1,0,0,0,0,0,0
 Schnittlauch,Viburnum opulus,Kräuter,1,1,0,0,0,0,1,1,1,1,0,0,0,0
 Bergminze,compactum,Kräuter,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 Ysop,Hyssopus officinalis,Kräuter,1,1,0,0,0,0,0,0,1,1,1,0,0,0
-Lavendel,Lavandula angustif.,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
-Zitronenmelisse,Melissa,Kräuter,1,0,0,0,0,0,0,1,1,1,0,0,0,0
 Minzen,Mentha i. S.,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 Basilikum,Ocimum basilicum,Kräuter,1,0,0,0,0,0,0,0,1,1,1,1,0,0
 Weinraute,Ruta graveolens,Kräuter,1,0,0,0,0,0,0,1,1,0,0,0,0,0
-Salbei,Salvia i. S.,Kräuter,1,1,0,0,0,0,1,1,1,1,1,1,0,0
 Bohnenkraut,Satureja i. S.,Kräuter,1,1,0,0,0,0,0,0,0,1,1,1,0,0
 Bergbohnenkraut,Satureja montana,Kräuter,1,1,0,0,0,0,0,0,0,1,1,1,0,0
 Spanischer Mauerpfeffer,Sedum hispanicum,Kräuter,1,1,0,0,0,0,1,1,1,1,0,0,0,0

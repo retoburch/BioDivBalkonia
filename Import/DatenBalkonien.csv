@@ -46,7 +46,6 @@ Ballonblume,Platycodon grandiflorus,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1
 Lavendel,Lavandula angustifolia,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,bmel
 Wald-Erdbeere,Fragaria vesca,Gehölz,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,bmel
 Krokus,Crocus spec.,Stauden,1,1,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,bmel
-Oregano (Dost),Origanum vulgare,Kräuter,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,bmel
 Schneeglöckchen,Galanthus nivalis,Stauden,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,bmel
 Bartblume,Caryopteris x clandonensis,Saisonpflanze,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,bmel
 Fenchel,Foeniculum vulgare,Kräuter,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,bmel
@@ -55,7 +54,7 @@ Salbei,Salvia sclarea,Kräuter,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,bme
 Klatschmohn,Papaver rhoeas,Saisonpflanze,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,bmel
 Sonnenblume,Helianthus spec.,Saisonpflanze,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,bmel
 Kornblume,Centaurea cyanus,Saisonpflanze,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,bmel
-Forsythien,unkown,Gehölz,0,0,0,0,0,1,1,0,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,Utopia/MSG
+Forsythie,unkown,Gehölz,0,0,0,0,0,1,1,0,0,2,0,0,0,0,1,1,0,0,0,0,0,0,0,Utopia/MSG
 Geranien,unkown,Stauden,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1,1,1,1,1,1,0,0,Utopia/MSG
 Lebensbaum,unkown,Gehölz,0,0,0,0,0,1,1,1,0,2,0,0,0,1,1,1,0,0,0,0,0,0,0,Utopia/MSG
 Magnolie,unkown,Gehölz,0,0,0,0,0,1,1,1,0,2,0,0,0,0,1,1,1,0,0,1,0,0,0,Utopia/MSG
