@@ -3,11 +3,11 @@ zitronenmelisse,unkown,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 zierapfel,unkown,Rosengewächs,1,0,0,0,0,1,1,0,0,0,0,0,0,0
 winterheckenzwiebel,unkown,Gemüse,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 winter-bohnenkraut,unkown,Gemüse,1,1,0,0,0,0,0,1,1,1,1,0,0,0
-wildstrauch schwarzer holunder,unkown,Staude,1,1,0,0,0,0,1,1,0,0,0,0,0,0
-wildstrauch pfaffenhütchen,unkown,Staude,1,1,0,0,0,0,1,1,0,0,0,0,0,0
-wildrose «hunds-rose»,unkown,Rosengewächs,1,1,0,0,0,0,0,1,1,0,0,0,0,0
-wildrose bereifte rose (hechtrose),unkown,Rosengewächs,0,1,0,0,0,0,1,1,0,0,0,0,0,0
-wildrose apfel-rose,unkown,Rosengewächs,0,1,0,0,0,0,0,1,1,0,0,0,0,0
+schwarzer holunder,unkown,Staude,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+pfaffenhütchen,unkown,Staude,1,1,0,0,0,0,1,1,0,0,0,0,0,0
+hunds-rose,unkown,Rosengewächs,1,1,0,0,0,0,0,1,1,0,0,0,0,0
+bereifte rose,Hechtrose,Rosengewächs,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+apfel-rose,unkown,Rosengewächs,0,1,0,0,0,0,0,1,1,0,0,0,0,0
 tauben-skabiose,Nana,Staude,1,1,0,0,0,0,0,0,0,0,0,0,0,0
 säulenkirsche,Silvia,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0
 moschusmalve,unkown,Staude,1,1,0,0,0,0,0,1,1,1,1,0,0,0
@@ -22,8 +22,8 @@ oregano,Origanum vulgare,Kräuter,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 birne,Conférence,Gehölz,0,1,0,0,0,1,1,0,0,0,0,0,0,0
 muskatellersalbei,unkown,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 kornelkirsche,unkown,Gehölz,1,1,0,1,1,1,0,0,0,0,0,0,0,0
-kletterpflanze gartengeissblatt,unkown,Kletterpflanze,1,1,0,0,0,0,1,1,1,0,0,0,0,0
-kletterpflanze berg-waldrebe «tetra rose»,unkown,Kletterpflanze,0,1,0,0,0,0,1,1,0,0,0,0,0,0
+gartengeissblatt,unkown,Kletterpflanze,1,1,0,0,0,0,1,1,1,0,0,0,0,0
+berg-waldrebe,Tetra Rose,Kletterpflanze,0,1,0,0,0,0,1,1,0,0,0,0,0,0
 kleiner kugellauch,unkown,Staude,1,1,0,0,0,0,0,1,1,0,0,0,0,0
 kirschpflaume,unkown,Rosengewächs,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 johanniskraut,Hypericum perforatum,Staude,1,1,0,0,0,0,1,1,1,1,0,0,0,0
@@ -35,7 +35,7 @@ blaue malve,unkown,Staude,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 bartblume blauer spatz,Caryopteris clandonensis,Gehölz,1,1,0,0,0,0,0,0,1,1,1,1,0,0
 baldrian,unkown,Kräuter,1,1,0,0,0,0,1,1,1,0,0,0,0,0
 arzneithymian,unkown,Kräuter,1,1,0,0,0,0,0,1,1,1,1,0,0,0
-azalee; rhododendron spec.,unkown,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0
+azalee,Rhododendron spec.,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0
 besenheide,Calluna vulgaris,Gehölz,1,1,0,0,0,0,0,0,0,1,1,1,0,0
 himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,0,1,1,1,1,0,0,0,0
 rose ungefüllt,Rosa spec.,Gehölz,1,1,0,0,0,0,1,1,1,1,1,1,0,0
