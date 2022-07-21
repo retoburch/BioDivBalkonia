@@ -3,11 +3,11 @@ Zitronenmelisse,unkown,Kräuter,1,1,0,0,0,1,1,1,0,2,50–80,0,0,0,0,0,1,1,1,0,0,
 Zierapfel,unkown,Rosengewächs,1,0,1,0,0,1,1,0,0,2,200–400,0,0,0,1,1,0,0,0,0,0,0,0,Biogarten
 Winterheckenzwiebel,unkown,Gemüse,1,1,0,0,0,1,1,0,0,1,25–50,0,0,0,0,0,1,1,1,0,0,0,0,Biogarten
 Winter-Bohnenkraut,unkown,Gemüse,1,1,0,0,0,1,1,0,0,1,25–50,0,0,0,0,0,1,1,1,1,0,0,0,Biogarten
-Wildstrauch Schwarzer Holunder,unkown,Staude,1,1,1,0,0,1,1,1,0,2,400–700,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
-Wildstrauch Pfaffenhütchen,unkown,Staude,1,1,1,0,0,1,1,1,0,2,200–400,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
-Wildrose «Hunds-Rose»,unkown,Rosengewächs,1,1,1,0,0,1,1,0,0,2,200–400,0,0,0,0,0,1,1,0,0,0,0,0,Biogarten
-Wildrose Bereifte Rose (Hechtrose),unkown,Rosengewächs,0,1,1,0,0,1,1,0,0,2,200–400,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
-Wildrose Apfel-Rose,unkown,Rosengewächs,0,1,1,0,0,1,1,0,0,2,120–200,0,0,0,0,0,1,1,0,0,0,0,0,Biogarten
+Schwarzer Holunder,unkown,Staude,1,1,1,0,0,1,1,1,0,2,400–700,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
+Pfaffenhütchen,unkown,Staude,1,1,1,0,0,1,1,1,0,2,200–400,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
+Hunds-Rose,unkown,Rosengewächs,1,1,1,0,0,1,1,0,0,2,200–400,0,0,0,0,0,1,1,0,0,0,0,0,Biogarten
+Bereifte Rose,Hechtrose,Rosengewächs,0,1,1,0,0,1,1,0,0,2,200–400,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
+Apfel-Rose,unkown,Rosengewächs,0,1,1,0,0,1,1,0,0,2,120–200,0,0,0,0,0,1,1,0,0,0,0,0,Biogarten
 Tauben-Skabiose,Nana,Staude,1,1,0,0,0,1,1,0,0,1,20–25,0,0,0,0,0,0,0,0,0,0,0,0,Biogarten
 Säulenkirsche,Silvia,Gehölz,1,1,1,0,0,1,1,0,0,2,200–400,0,0,0,1,1,0,0,0,0,0,0,0,Biogarten
 Moschusmalve,unkown,Staude,1,1,0,0,0,1,1,1,0,2,50–80,0,0,0,0,0,1,1,1,1,0,0,0,Biogarten
@@ -22,8 +22,8 @@ Oregano,Origanum vulgare,Kräuter,1,1,0,1,1,1,1,0,0,1,25–50,0,0,0,0,0,0,1,1,1,
 Birne,Conférence,Gehölz,0,1,1,0,0,1,1,0,0,2,200–400,0,0,0,1,1,0,0,0,0,0,0,0,Biogarten
 Muskatellersalbei,unkown,Kräuter,1,1,0,0,0,1,1,0,0,1,80–120,0,0,0,0,0,1,1,1,0,0,0,0,Biogarten
 Kornelkirsche,unkown,Gehölz,1,1,1,0,0,1,1,0,0,2,200–400,0,1,1,1,0,0,0,0,0,0,0,0,Biogarten
-Kletterpflanze Gartengeissblatt,unkown,Kletterpflanze,1,1,1,0,0,1,1,1,0,2,200–400,0,0,0,0,1,1,1,0,0,0,0,0,Biogarten
-Kletterpflanze Berg-Waldrebe «Tetra Rose»,unkown,Kletterpflanze,0,1,1,0,0,1,1,1,0,2,400–700,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
+Gartengeissblatt,unkown,Kletterpflanze,1,1,1,0,0,1,1,1,0,2,200–400,0,0,0,0,1,1,1,0,0,0,0,0,Biogarten
+Berg-Waldrebe,Tetra Rose,Kletterpflanze,0,1,1,0,0,1,1,1,0,2,400–700,0,0,0,0,1,1,0,0,0,0,0,0,Biogarten
 Kleiner Kugellauch,unkown,Staude,1,1,0,0,0,1,1,0,0,1,50–80,0,0,0,0,0,1,1,0,0,0,0,0,Biogarten
 Kirschpflaume,unkown,Rosengewächs,1,1,1,0,0,1,1,0,0,2,400–700,0,0,1,1,0,0,0,0,0,0,0,0,Biogarten
 Johanniskraut,Hypericum perforatum,Staude,1,1,0,0,0,1,1,0,0,1,50–80,0,0,0,0,1,1,1,1,0,0,0,0,Biogarten
@@ -35,7 +35,7 @@ Blaue Malve,unkown,Staude,1,1,0,0,0,1,1,0,0,2,80–120,0,0,0,0,0,0,1,1,1,0,0,0,B
 Bartblume Blauer Spatz,Caryopteris clandonensis,Gehölz,1,1,0,0,0,1,1,0,0,2,50–70,0,0,0,0,0,0,1,1,1,1,0,0,Biogarten
 Baldrian,unkown,Kräuter,1,1,0,0,0,1,1,1,0,2,120–200,0,0,0,0,1,1,1,0,0,0,0,0,Biogarten
 Arzneithymian,unkown,Kräuter,1,1,0,0,0,1,1,0,0,1,1–25,0,0,0,0,0,1,1,1,1,0,0,0,Biogarten
-Azalee; Rhododendron spec.,unkown,Gehölz,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,bmel
+Azalee,Rhododendron spec.,Gehölz,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,bmel
 Besenheide,Calluna vulgaris,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,bmel
 Brombeere,Rubus fruticosus,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,bmel
 Himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,bmel
