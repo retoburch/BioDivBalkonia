@@ -39,9 +39,9 @@ Azalee; Rhododendron spec.,unkown,Gehölz,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,
 Besenheide,Calluna vulgaris,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,bmel
 Brombeere,Rubus fruticosus,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,bmel
 Himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,bmel
-Rose (ungefüllt),Rosa spec.,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,bmel
+Rose ungefüllt,Rosa spec.,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,bmel
 Rosmarin,Rosmarinus officinalis,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,bmel
-(Gewöhnliche) Waldrebe,Clematis vitalba,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,bmel
+gewöhnliche Waldrebe,Clematis vitalba,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,bmel
 Ballonblume,Platycodon grandiflorus,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,bmel
 Lavendel,Lavandula angustifolia,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,bmel
 Wald-Erdbeere,Fragaria vesca,Gehölz,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,bmel
@@ -104,7 +104,7 @@ Bergminze,compactum,Kräuter,1,1,0,0,0,0,1,0,0,1,40,0,0,0,0,0,0,1,1,1,0,0,0,NBL
 Ysop,Hyssopus officinalis,Kräuter,1,1,0,1,0,0,1,1,0,0,20-60,0,0,0,0,0,0,1,1,1,0,0,0,NBL
 Lavendel,Lavandula angustif.,Kräuter,1,1,0,1,0,0,1,0,0,1,30-60,0,0,0,0,0,1,1,1,0,0,0,0,NBL
 Zitronenmelisse,Melissa,Kräuter,1,0,0,1,0,0,1,1,0,0,40-60,0,0,0,0,0,1,1,1,0,0,0,0,NBL
-Minzen,Mentha i. S.,Kräuter,1,1,0,1,1,0,1,1,0,0,50-100,0,0,0,0,0,1,1,1,0,0,0,0,NBL
+Minze,Mentha i. S.,Kräuter,1,1,0,1,1,0,1,1,0,0,50-100,0,0,0,0,0,1,1,1,0,0,0,0,NBL
 Basilikum,Ocimum basilicum,Kräuter,1,0,0,0,0,0,1,0,0,0,30-50,0,0,0,0,0,0,1,1,1,1,0,0,NBL
 Oregano,Origanum vulgare,Kräuter,1,1,0,1,1,0,1,0,0,1,20-40,0,0,0,0,0,0,1,1,1,0,0,0,NBL
 Weinraute,Ruta graveolens,Kräuter,1,0,0,0,0,0,1,0,0,0,30-60,0,0,0,0,0,1,1,0,0,0,0,0,NBL

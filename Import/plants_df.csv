@@ -38,9 +38,9 @@ arzneithymian,unkown,Kräuter,1,1,0,0,0,0,0,1,1,1,1,0,0,0
 azalee; rhododendron spec.,unkown,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0
 besenheide,Calluna vulgaris,Gehölz,1,1,0,0,0,0,0,0,0,1,1,1,0,0
 himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,0,1,1,1,1,0,0,0,0
-rose (ungefüllt),Rosa spec.,Gehölz,1,1,0,0,0,0,1,1,1,1,1,1,0,0
+rose ungefüllt,Rosa spec.,Gehölz,1,1,0,0,0,0,1,1,1,1,1,1,0,0
 rosmarin,Rosmarinus officinalis,Gehölz,1,1,0,0,0,0,1,1,0,0,0,0,0,0
-(gewöhnliche) waldrebe,Clematis vitalba,Staude,1,1,0,0,0,0,0,1,1,1,1,0,0,0
+gewöhnliche waldrebe,Clematis vitalba,Staude,1,1,0,0,0,0,0,1,1,1,1,0,0,0
 ballonblume,Platycodon grandiflorus,Staude,1,1,0,0,0,0,0,0,1,1,0,0,0,0
 lavendel,Lavandula angustifolia,Gehölz,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 wald-erdbeere,Fragaria vesca,Gehölz,0,0,0,0,0,1,1,1,0,0,0,0,0,0
@@ -99,7 +99,7 @@ zwergschneeball,Salix rosmarinifolia,Kleingehölze,0,1,0,0,0,0,1,1,0,0,0,0,0,0
 schnittlauch,Viburnum opulus,Kräuter,1,1,0,0,0,0,1,1,1,1,0,0,0,0
 bergminze,compactum,Kräuter,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 ysop,Hyssopus officinalis,Kräuter,1,1,0,0,0,0,0,0,1,1,1,0,0,0
-minzen,Mentha i. S.,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
+minze,Mentha i. S.,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
 basilikum,Ocimum basilicum,Kräuter,1,0,0,0,0,0,0,0,1,1,1,1,0,0
 weinraute,Ruta graveolens,Kräuter,1,0,0,0,0,0,0,1,1,0,0,0,0,0
 bohnenkraut,Satureja i. S.,Kräuter,1,1,0,0,0,0,0,0,0,1,1,1,0,0
