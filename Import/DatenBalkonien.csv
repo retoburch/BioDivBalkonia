@@ -41,12 +41,12 @@ Brombeere,Rubus fruticosus,Gehölz,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0
 Himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,bmel
 Rose ungefüllt,Rosa spec.,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,bmel
 Rosmarin,Rosmarinus officinalis,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,bmel
-gewöhnliche Waldrebe,Clematis vitalba,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,bmel
+gewöhnliche Waldrebe,Clematis vitalba,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,bmel
 Ballonblume,Platycodon grandiflorus,Staude,1,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,bmel
 Lavendel,Lavandula angustifolia,Gehölz,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,bmel
 Wald-Erdbeere,Fragaria vesca,Gehölz,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,bmel
 Krokus,Crocus spec.,Stauden,1,1,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,bmel
-Schneeglöckchen,Galanthus nivalis,Stauden,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,bmel
+Schneeglöckchen,Galanthus nivalis,Stauden,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,bmel
 Bartblume,Caryopteris x clandonensis,Saisonpflanze,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,bmel
 Fenchel,Foeniculum vulgare,Kräuter,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,bmel
 Koriander,Coriandrum spec.,Kräuter,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,bmel
@@ -59,7 +59,7 @@ Geranien,unkown,Stauden,0,0,0,0,0,0,1,0,0,2,0,0,0,0,0,1,1,1,1,1,1,0,0,Utopia/MSG
 Lebensbaum,unkown,Gehölz,0,0,0,0,0,1,1,1,0,2,0,0,0,1,1,1,0,0,0,0,0,0,0,Utopia/MSG
 Magnolie,unkown,Gehölz,0,0,0,0,0,1,1,1,0,2,0,0,0,0,1,1,1,0,0,1,0,0,0,Utopia/MSG
 Bauernhortensie,unkown,Staude,0,0,0,0,0,1,0,1,0,2,0,0,0,0,0,0,1,1,1,1,1,0,0,Utopia/MSG
-Tulpen,unkown,Staude,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,Utopia/MSG
+Tulpe,unkown,Staude,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,Utopia/MSG
 Löwenmäulchen,Antirrhinum hisp.,Ein- und zweijährige Balkonpflanzen,0,0,0,1,0,0,1,0,0,1,20,0,0,0,0,0,0,1,1,1,1,0,0,NBL
 Goldkosmos,Bidens ferulifolia,Ein- und zweijährige Balkonpflanzen,0,0,0,1,0,0,1,0,0,0,20-30,0,0,0,0,0,1,1,1,1,0,0,0,NBL
 Vergissmeinnicht,Brunnera macrophylla,Ein- und zweijährige Balkonpflanzen,1,1,0,0,1,0,0,1,0,0,40,0,0,0,1,1,1,0,0,0,0,0,0,NBL
