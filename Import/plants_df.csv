@@ -40,12 +40,12 @@ besenheide,Calluna vulgaris,Gehölz,1,1,0,0,0,0,0,0,0,1,1,1,0,0
 himbeere,Rubus idaeus,Gehölz,1,1,0,0,0,0,1,1,1,1,0,0,0,0
 rose ungefüllt,Rosa spec.,Gehölz,1,1,0,0,0,0,1,1,1,1,1,1,0,0
 rosmarin,Rosmarinus officinalis,Gehölz,1,1,0,0,0,0,1,1,0,0,0,0,0,0
-gewöhnliche waldrebe,Clematis vitalba,Staude,1,1,0,0,0,0,0,1,1,1,1,0,0,0
+gewöhnliche waldrebe,Clematis vitalba,Staude,1,1,0,0,0,0,0,1,1,1,1,0,0,0
 ballonblume,Platycodon grandiflorus,Staude,1,1,0,0,0,0,0,0,1,1,0,0,0,0
 lavendel,Lavandula angustifolia,Gehölz,1,1,0,0,0,0,0,0,1,1,1,0,0,0
 wald-erdbeere,Fragaria vesca,Gehölz,0,0,0,0,0,1,1,1,0,0,0,0,0,0
 krokus,Crocus spec.,Stauden,1,1,0,0,1,1,0,0,0,0,0,0,0,0
-schneeglöckchen,Galanthus nivalis,Stauden,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+schneeglöckchen,Galanthus nivalis,Stauden,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 bartblume,Caryopteris x clandonensis,Saisonpflanze,1,1,0,0,0,0,0,0,0,1,1,0,0,0
 fenchel,Foeniculum vulgare,Kräuter,1,1,0,0,0,0,0,0,1,1,0,0,0,0
 koriander,Coriandrum spec.,Kräuter,1,1,0,0,0,0,0,1,1,1,0,0,0,0
@@ -57,7 +57,7 @@ geranien,unkown,Stauden,0,0,0,0,0,0,1,1,1,1,1,1,0,0
 lebensbaum,unkown,Gehölz,0,0,0,0,1,1,1,0,0,0,0,0,0,0
 magnolie,unkown,Gehölz,0,0,0,0,0,1,1,1,0,0,1,0,0,0
 bauernhortensie,unkown,Staude,0,0,0,0,0,0,0,1,1,1,1,1,0,0
-tulpen,unkown,Staude,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+tulpe,unkown,Staude,0,0,0,0,0,1,1,0,0,0,0,0,0,0
 löwenmäulchen,Antirrhinum hisp.,Ein- und zweijährige Balkonpflanzen,0,0,0,0,0,0,0,0,1,1,1,1,0,0
 goldkosmos,Bidens ferulifolia,Ein- und zweijährige Balkonpflanzen,0,0,0,0,0,0,0,1,1,1,1,0,0,0
 vergissmeinnicht,Brunnera macrophylla,Ein- und zweijährige Balkonpflanzen,1,1,0,0,0,1,1,1,0,0,0,0,0,0
