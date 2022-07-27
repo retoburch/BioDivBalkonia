@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5880c74e-8ee1-423c-861d-7c8e2481dd99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BioDiv_Balconia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3e6d98c7-56a9-4516-a9e5-fc511dacd4d0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BioDiv_test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioDiv_test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BioDiv_Balconia.py" beforeDir="false" afterPath="$PROJECT_DIR$/BioDiv_Balconia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,28 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.BioDiv_Balconia">
+    <configuration name="BioDiv_Balconia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pruefungsleistung" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BioDiv_Balconia.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BioDiv_test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pruefungsleistung" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BioDiv_Balconia" />
         <item itemvalue="Python.BioDiv_test2" />
       </list>
     </recent_temporary>
@@ -80,7 +100,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5880c74e-8ee1-423c-861d-7c8e2481dd99" name="Changes" comment="" />
+      <changelist id="3e6d98c7-56a9-4516-a9e5-fc511dacd4d0" name="Changes" comment="" />
       <created>1657867720581</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
