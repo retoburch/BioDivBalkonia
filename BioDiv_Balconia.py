@@ -1,6 +1,7 @@
 import pandas as pd
 from math import log as ln
 from functools import reduce
+import matplotlib as plt
 
 #Import der Daten als Dataframe
 plantfacts_df = pd.read_csv('./Import/DatenBalkonien.csv',sep=",")
