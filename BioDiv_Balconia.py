@@ -6,31 +6,14 @@ import matplotlib.pyplot as plt
 #Import der Daten als Dataframe
 plantfacts_df = pd.read_csv('./Import/DatenBalkonien.csv',sep=",")
 
-#Anzeigen Typ und Prüfung, ob Pandas Dataframe erstellt wurde.
-print(type(plantfacts_df))
-
-#Anzeigen Attribute
-plantfacts_df.head()
-
-#Anzeigen Dataframe und Durchsicht auf Null-Werte / Richtigkeit Datentypen.
-plantfacts_df.info()
-
 #Kopie des Dataframes und Aussortieren der Attribute (Spalten), die nicht weiter verwendet werden.
 plants_df = plantfacts_df.copy()
 plants_df. drop(plants_df.columns[[1,4,5,6,7,8,9,10,11,12,13,26]],
                     axis = 1,
                     inplace = True)
 
-#Ausgabe des neuen Dataframes.
-plants_df.info()
-
-
-#Es gibt einige Duplikate, z.B. Oregano:
-print(plants_df.loc[plants_df['Name'] == 'Oregano'])
-
 #Löschen von Duplikaten in der Spalte 'Namen' aus dem Dataframe, da dieser für den Abgleich mit der Usereingabe benötigt wird:
 plants_df.drop_duplicates(subset=['Name'], keep='first', inplace=True, ignore_index=True)
-print(plants_df.loc[plants_df['Name'] == 'Oregano'])
 
 #Spaltenbezeichnungen: Lowercase und _ statt Leerzeichen.
 plants_df = plants_df.rename(str.lower, axis='columns')
@@ -40,8 +23,6 @@ plants_df['name'] = plants_df['name'].str.lower()
 plants_df['kategorie'] = plants_df['kategorie'].str.lower()
 plants_df.head()
 
-#Ausgeben des Dataframes.
-plants_df.info()
 #Ausgeben als csv file.
 plants_df.to_csv('./Import/plants_df.csv', index=False)
 
@@ -92,10 +73,7 @@ def user_input():
     user_df = pd.DataFrame(list_user)
     return user_df
 
-
 user_df = user_input()
-
-
 
 #Diversitätsberechnung
 def shannon_index(user_input):
@@ -114,9 +92,8 @@ def shannon_index(user_input):
 
     if evenn > 0.8 and sdi > 2:
         print("Dein Balkon ist ausgeglichen bepflanzt und hat eine sehr gute Biodiversität")
-    elif evenn < 0.8 and sdi > 1.5:
-        print(
-            "Dein Balkon eine gute Biodiversität. Der geringere Evenness (w) kann darauf hindeuten, dass eine oder wenige Pflanzenarten verhältnismäßig oft vorkommen.")
+    elif evenn > 0.8 and sdi > 1.5:
+        print("Dein Balkon eine gute Biodiversität. Der geringere Evenness (w) kann darauf hindeuten, dass eine oder wenige Pflanzenarten verhältnismäßig oft vorkommen.")
     elif evenn > 0.8 and sdi <= 1.0:
         print("Dein Balkon ist ausgeglichen bepflanzt, hat jedoch eine geringe Biodiversität.")
     else:
