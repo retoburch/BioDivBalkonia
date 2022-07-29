@@ -90,11 +90,11 @@ def shannon_index(user_input):
     print("Dein Shannon-Index (H) ist:", round(sdi, 4))
     print("Die Evenness (w) beträgt:", round(evenn, 4))
 
-    if evenn > 0.6 and sdi > 2:
+    if evenn > 0.8 and sdi > 2:
         print("Dein Balkon ist ausgeglichen bepflanzt und hat eine sehr gute Biodiversität")
-    elif evenn > 0.6 and sdi > 1.5:
+    elif evenn < 0.8 and sdi > 1.5:
         print("Dein Balkon eine gute Biodiversität. Der geringere Evenness (w) kann darauf hindeuten, dass eine oder wenige Pflanzenarten verhältnismäßig oft vorkommen.")
-    elif evenn > 0.6 and sdi <= 1.0:
+    elif evenn > 0.8 and sdi <= 1.0:
         print("Dein Balkon ist ausgeglichen bepflanzt, hat jedoch eine geringe Biodiversität.")
     else:
         print(
