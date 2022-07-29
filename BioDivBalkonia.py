@@ -1,7 +1,7 @@
 import pandas as pd
 from math import log as ln
 from functools import reduce
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 #Import der Daten als Dataframe
 plantfacts_df = pd.read_csv('./Import/DatenBalkonien.csv',sep=",")
@@ -25,6 +25,7 @@ plants_df.head()
 
 #Ausgeben als csv file.
 plants_df.to_csv('./Import/plants_df.csv', index=False)
+
 
 #User Eingabe
 # Check, ob die eingebenen Pflanzenart im Dataframe der Pflanzen überhaupt vorhanden ist
@@ -54,7 +55,6 @@ def check_plant_number(input):
         return input_plant_number()
     return val
 
-
 def input_plant_number():
     return check_plant_number(input("Anzahl: "))
 
@@ -74,6 +74,7 @@ def user_input():
     return user_df
 
 user_df = user_input()
+
 
 #Diversitätsberechnung
 def shannon_index(user_input):
@@ -118,15 +119,17 @@ print("Anzahl bienenfreundliche Pflanzen: ",user_plants_df['score_biene'].sum())
 print("Anzahl Pflanzen gesamt: ", user_df['anzahl'].sum())
 print("Dein Bienenscore ist =",Total,"%.")
 
-#Feedback zu Bienenscore:
+
+#Feedback zu Bienenscore.
 if Total > 85:
     print("Das ist super! Glückwunsch :-)")
 else:
     print("Du solltest mehr bienenfreundliche Pflanzen pflanzen. Zum Beispiel:")
 if Total <= 85:
-    subset_biene_df = plants_df.loc[plants_df['biene'] == 1]
+    subset_bee_df = pd.merge(plants_df.loc[plants_df['biene'] == 1], user_df, on=['name'], how='outer')
     #Empfehlung, falls Bienenscore <=85%:
-    print(subset_biene_df.name.sample(5))
+    print(subset_bee_df.name.sample(5))
+
 
 #Dataframe über Monat, Blüte und bienenfreundliche Blüte:
 monat = ['jan', 'feb', 'mrz', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dez']
