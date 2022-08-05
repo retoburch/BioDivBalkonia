@@ -1,7 +1,5 @@
 import pandas as pd
 from math import log as ln
-from functools import reduce
-import matplotlib as plt
 
 #Import der Daten als Dataframe
 plantfacts_df = pd.read_csv('./Import/DatenBalkonien.csv',sep=",")
@@ -93,6 +91,8 @@ def shannon_index(user_input):
 
     if evenn > 0.8 and sdi > 2:
         print("Dein Balkon ist ausgeglichen bepflanzt und hat eine sehr gute Biodiversität")
+    elif evenn > 0.8 and 1.5 < sdi <= 2:
+        print("Dein Balkon eine gute Biodiversität.")
     elif evenn < 0.8 and sdi > 1.5:
         print("Dein Balkon eine gute Biodiversität. Der geringere Evenness (w) kann darauf hindeuten, dass eine oder wenige Pflanzenarten verhältnismäßig oft vorkommen.")
     elif evenn > 0.8 and sdi <= 1.0:
@@ -110,7 +110,6 @@ user_plants_df = pd.merge(plants_df, user_df, on=['name'], how='inner')
 
 #Spalte mit Score für für Bienen wertvolle Pflanzen.
 user_plants_df = user_plants_df.assign(score_biene=user_plants_df['biene']*user_plants_df['anzahl'])
-user_plants_df
 
 #Zeile mit Summe je Spalte hinzufügen oder Summe score_biene berechnen.
 Total = user_plants_df['score_biene'].sum()/user_df['anzahl'].sum()*100
@@ -131,25 +130,25 @@ if Total <= 85:
     print(subset_bee_df.name.sample(5))
 
 
-#Dataframe über Monat, Blüte und bienenfreundliche Blüte:
-monat = ['jan', 'feb', 'mrz', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dez']
-blüte = list(map(lambda monat: user_plants_df[monat].sum(), monat))
+##Dataframe über Monat, Blüte und bienenfreundliche Blüte:
+month = ['jan', 'feb', 'mrz', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dez']
+blossom = list(map(lambda month: user_plants_df[month].sum(), month))
 subset_user_plants_df=user_plants_df.loc[user_plants_df['biene'] == 1]
-blüte_biene = list(map(lambda monat: subset_user_plants_df[monat].sum(), monat))
-
-blüte_anz_monat_df = pd.DataFrame({'monat': monat, 'blüte': blüte, 'blüte_biene': blüte_biene})
+blossom_bee = list(map(lambda month: subset_user_plants_df[month].sum(), month))
+blossom_month_df = pd.DataFrame({'monat': month, 'blüte': blossom, 'blüte_biene': blossom_bee})
 
 #Visualisierung der Anzahl blühender Pflanzenarten sowie bienenfreundlicher blühenden Pflanzenarten je Monat
-ax_blüte = blüte_anz_monat_df.plot.bar(x='monat', rot=0)
+ax_blossom = blossom_month_df.plot.bar(x='monat', rot=0)
+
 
 #Hinweis, in welchen Monaten Blüte für Bienen fehlt.
-keine_blüte_biene = blüte_anz_monat_df.loc[blüte_anz_monat_df['blüte_biene'] == 0]
+no_blossom_bee = blossom_month_df.loc[blossom_month_df['blüte_biene'] == 0]
 
+from functools import reduce
+months = reduce(lambda a, b: a + ', ' + b, no_blossom_bee['monat'].tolist())
 
-monate = reduce(lambda a, b: a + ', ' + b, keine_blüte_biene['monat'].tolist())
-
-if monate == 'jan, dez':
+if months == 'jan, dez':
     print("Super!")
 else:
-    print("In den folgenden Monaten blüht keine Pflanze:", monate)
-    print("Du solltest beim nächsten Pflanzenkauf darauf achten Pflanzen zu wählen, die bienenfreundlich sind und in diesen Monaten blühen.")
+    print("In den folgenden Monaten blüht keine Pflanze:", months)
+    print("Du solltest beim nächsten Pflanzenkauf darauf achten eine bienenfreundliche Pflanzenart zu wählen, die in diesen Monaten blüht.")
