@@ -1,6 +1,6 @@
 # BioDivBalkonia
 Prüfungsleistung im Seminar “Programmieren in Python“, Sommersemester 2022, Leuphana Professional School
-Autoren: Anna Mayer, Jana Jensen, Reto Burch
+Autoren: [Anna Mayer](https://github.com/AnnaMay3r), [Jana Jensen](https://github.com/JaJnsn), [Reto Burch](https://github.com/retoburch)
 
 ## Motivation
 
