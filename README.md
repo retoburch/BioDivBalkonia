@@ -1,4 +1,6 @@
 # BioDivBalkonia
+Prüfungsleistung im Seminar “Programmieren in Python“, Sommersemester 2022, Leuphana Professional School
+Autoren: Anna Mayer, Jana Jensen, Reto Burch
 
 ## Motivation
 
@@ -128,7 +130,7 @@ verbessern, geschaffen. Untersuchungen in Australien haben gezeigt, dass die
 individuelle Einschätzung der Gärten und Vorschläge für Verbesserungen sehr effektiv
 ist bei der Gestaltung für biodiverse Gärten (Mumaw & Bekessy, 2017).
 
-##Ansatz
+## Ansatz
 ### Projektidee
 Erfreulich ist, dass es bereits viele Ansätze und Anregungen gibt, das Thema
 Biodiversität für jeden Einzelnen populärer und greifbarer zu machen. Es fehlt jedoch
